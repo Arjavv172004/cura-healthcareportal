@@ -1,0 +1,33 @@
+body{
+    background-color: #c0ebc0;
+   }  
+  h1{
+    text-align: center;
+    font-size: 70px;
+   }
+  .audio-list {
+    margin-top: 20px;
+  }
+  .audio-item {
+    
+    display: flex;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #498a49;
+    
+  }
+  
+  .audio-item audio {
+    width: 80%;
+  }
+  
+  .remove-btn {
+    cursor: pointer;
+    color: #e74c3c;
+  }

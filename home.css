@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+    color: #fff;
+ }
+ 
+ html, body{
+    height: 100;
+    width: 100;
+ }
+ 
+ #cursor{
+    height: 25px;
+    width: 25px;
+    background-color: #36814f ;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+ }
+ 
+ #cursor-blur{
+    height: 400px;
+    width: 400px;
+    background-color: #36814f ;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    filter: blur(50px);
+    z-index: 9;
+ }
+ 
+ #nav{
+    height: 150px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 0 150px;
+    position: fixed;
+    z-index: 99;
+ }
+ 
+ #nav img{
+    height: 140px;
+ }
+ 
+ 
+ video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+ }
+ 
+ #main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.482);
+ }
+ .textt h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    z-index: 10;
+    text-align: center;
+    line-height: 40px; /* Center vertically */
+    margin: 0 auto; /* Center horizontally */
+}
+
+ #page1{
+    height:  100vh;
+    width: 100% ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+ }
+ 
+ #page1 h1{
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 20px;
+ }
+ #page1 h1::before{
+    content: "How can Cura help you today?"; 
+    position: absolute;
+    color: black;
+    top: -2px;
+    left: -2px;
+    -webkit-text-stroke: 2px #36814f;
+    z-index: -1;
+ }
+ .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+    border: 1px solid white;
+    background: #36814f;
+    margin: 10px;
+  }
+a{
+    font-size: 30px;
+}
+  .button:hover{
+    background-color: var(--first-color-alt);
+  }
+  
+ 
