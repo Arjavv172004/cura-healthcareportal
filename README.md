@@ -6,6 +6,9 @@ Immerse yourself in the captivating design, where every scroll is a journey guid
 
 As you explore each section, be prepared to be enchanted by the amazing hover effects and animations meticulously woven into the fabric of the website. Every detail has been carefully considered to create a cohesive and visually appealing user interface. 🎨✨
 
+## Check DEMO 
+https://arjavv172004.github.io/cura-healthcareportal/
+
 ## Key Features
 
  ### Optimized Animations for Peak Performance** 🚀
